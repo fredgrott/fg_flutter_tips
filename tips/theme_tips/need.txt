@@ -1,0 +1,12 @@
+flutter sdk still has dep of mcu 0.2
+where as new scheme palettes come in mcu 0.5 such
+as content, etc. all matching android kotlin java side.
+
+So general idea is since FCS and FSS are linked
+to internal copy of mcu 0.5 need extra 
+code to build schemes and go forward
+
+I should also do a manual set where
+I tie the flutter sdk to a mcu 0.6 override
+and do manual schemes manual dynamic color
+and themes as a base line

@@ -1,0 +1,8 @@
+# Speed Up Fix
+# targets:
+#   $default:
+#     builders:
+#       your_builder:
+#         generate_for:
+#           - lib/**/*.codegen.dart
+#

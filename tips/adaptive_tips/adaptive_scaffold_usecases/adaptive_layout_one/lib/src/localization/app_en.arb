@@ -1,0 +1,6 @@
+{
+  "appTitle": "adaptive_layout_one",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

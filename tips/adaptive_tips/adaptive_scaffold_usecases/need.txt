@@ -1,0 +1,46 @@
+1. mobile listview tablet desk girdview demo with gorouter
+2. mobile 2 column tbalet desk 3 or more columns with gorouter
+3. custom adaptive scaff pattern using adaptive layout,
+   google always shows it wrong in not wrapping it
+   in a scaffold
+   see adaptive layout source to emulate
+
+Junior Google Flutter SDK team members always 
+take the no other dependencies in package demo
+too literal resulting in showing the
+example with a wrong assumption and wrong implementation
+
+Feed Widget
+Panel
+Master Detail
+Mobile listView and other gird view
+
+all need to be statefuls as vm is passed 
+at root of stateful for state to access as widget.name
+and the display detail part would have to 
+be an indexstack
+
+Feed
+  -3 expanded, 2, compact 1
+  -2 column in non compact in compact its stacked
+  - implemented grid layout of cards
+
+List Detail-this one last as it has some special foldable transtions which 
+      we do not implement secondbody to handle but handle in the layout polling
+      the foldable angle stuff
+   compact is stacked
+   non compact list left side detail right side
+  as indexed stack
+
+Supporting Pane
+      main body 80%
+      supporting right content 20
+      does not have a parent child relationship like list detial
+
+     compact support pane is below main body
+     medium support pane is below main body
+     expanded support pane is to right of main body
+
+do skeleton app as adaptive layout demo
+than sample list view morphs into
+feed, list, and supporting pane
